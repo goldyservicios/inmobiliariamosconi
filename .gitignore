@@ -1,0 +1,44 @@
+# WordPress Core
+wp-admin/
+wp-includes/
+
+# WordPress content (solo ignorar uploads y cache)
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+
+# Plugins temporales
+wp-content/plugins/*.zip
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+wp-config.php
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Base de datos
+*.sql
+*.gz
+*.zip
+
+# XAMPP
+xampp/
+
+# IDE
+.vscode/
+.idea/
+
+# Backup plugins
+ai1wm-backups/
+updraft/
